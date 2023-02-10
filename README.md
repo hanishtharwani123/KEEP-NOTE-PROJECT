@@ -1,0 +1,3 @@
+# KEEP-NOTE-PROJECT
+hello everyone, I have made this project named keep note, I have made it using javascript.  In this project, you can write anything, you can save it, if you want to edit something, you can do that too.  Whatever I have written in this note using local storage, I can see the data even after loading it.  I hope you like it.  Thank you.![Screenshot (750)](https://user-images.githubusercontent.com/104623869/218115777-14dd889a-3ee2-4669-a9f1-7333a9fc95fd.png)
+![Screenshot (751)](https://user-images.githubusercontent.com/104623869/218115795-8c63dc91-8be6-4741-8fc1-d5f75ed6dbf0.png)
