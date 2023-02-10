@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background: #fff;
+    font-family: 'Poppins', sans-serif;
+    /* display: flex;
+    flex-wrap: wrap; */
+}
+
+.nav {
+    width: 100%;
+    height: 75px;
+    background: rgb(15, 107, 245);
+    padding: 18px 45px;
+}
+
+#noteKeep {
+    color: #ffa700;
+}
+
+.logo {
+    font-size: 24px;
+    color: #ffffff;
+    font-weight: lighter;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.btn {
+    display: flex;
+    justify-content: right;
+    padding: 25px 70px;
+}
+
+#add {
+    color: #ffffff;
+    font-size: 15px;
+    background: rgb(15, 107, 245);
+    border: 2px solid rgb(15, 107, 245);
+    border-radius: 5px;
+    padding: 9px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+#add:hover {
+    background: #ffa700;
+    border: 2px solid #ffa700;
+    color: #000;
+}
+
+.note {
+    height: 200px;
+    width: 400px;
+    background: #fff;
+    overflow-y: scroll;
+    box-shadow: 0px 0px 5px #00000036;
+    margin: 10px 40px;
+}
+
+.note textarea {
+    outline: none;
+    font-family: inherit;
+    border: none;
+    height: 300px;
+    width: 100%;
+    padding: 13px 33px;
+}
+
+.note .operation {
+    display: flex;
+    justify-content: flex-end;
+    padding: 9px;
+}
+
+.edit {
+    background: #039823;
+    border-radius: 50%;
+    padding: 10px;
+    border: none;
+    box-shadow: 0px 0px 4px #00000036;
+    cursor: pointer;
+    margin: 5px;
+    color: #fff;
+    transition: .4s;
+}
+
+.delete {
+    background: #f33f16;
+    border-radius: 50%;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    margin: 5px;
+    color: #ffffff;
+    transition: .4s;
+}
+
+.edit:hover {
+    background: #fff;
+    box-shadow: 0px 0px 4px #00000036;
+    color: #039823;
+}
+
+.delete:hover {
+    background: #fff;
+    box-shadow: 0px 0px 4px #00000036;
+    color: #f33f16;
+}
+
+.box {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.hidden {
+    display: none;
+}
+
+.main {
+    padding: 13px 33px;
+}
